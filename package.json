@@ -1,11 +1,12 @@
 {
   "name": "pushmatic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight, framework-agnostic library to simplify web push notifications.",
   "main": "src/index.js",
   "directories": {
     "test": "tests"
   },
+  "types": "types/index.d.ts",
   "scripts": {
     "test": "NODE_OPTIONS='--experimental-vm-modules --experimental-specifier-resolution=node' jest"
   },
