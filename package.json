@@ -1,0 +1,36 @@
+{
+  "name": "pushmatic",
+  "version": "1.0.0",
+  "description": "A lightweight, framework-agnostic library to simplify web push notifications.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules --experimental-specifier-resolution=node' jest"
+  },
+  "author": "Mohamed Salah",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "type": "module",
+  "keywords": [
+    "web-push",
+    "notification",
+    "push-notification",
+    "web-push-notification",
+    "push",
+    "javascript",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhmdsalahsebai/pushmatic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhmdsalahsebai/pushmatic/issues"
+  },
+  "homepage": "https://github.com/mhmdsalahsebai/pushmatic#README"
+}
